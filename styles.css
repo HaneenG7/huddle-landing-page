@@ -1,0 +1,234 @@
+/* Tag Selectors */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  color: hsl(208, 11%, 55%);
+}
+
+/* Top Section */
+
+.top-section {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("images/bg-hero-desktop.svg");
+}
+.logo {
+  width: 15%;
+}
+.cta-btn {
+  /* padding: 10px 50px; */
+  padding: 2% 7%;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 60px;
+  box-shadow: 0px 2px 6px hsl(322, 50%, 80%);
+  color: hsl(193, 100%, 96%);
+  font-weight: 700;
+  border-style: none;
+  font-size: 18px;
+}
+nav .cta-btn {
+  padding: 0.5% 3%;
+  background-color: #fff;
+  border-radius: 60px;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 20%);
+  color: hsl(192, 100%, 9%);
+  font-weight: 700;
+  border-style: none;
+  font-size: 18px;
+}
+
+/* Intro Section */
+.container-fluid {
+  padding: 3% 10%;
+}
+.vertical-center {
+  padding-top: 5%;
+}
+.big-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-right: 20%;
+}
+.intro-text {
+  padding-right: 15%;
+  color: hsl(192, 100%, 9%);
+  margin: 7% 0;
+}
+.mockups-img {
+  width: 100%;
+  margin: 10% 0;
+}
+
+/* Middle Section */
+.middle-section {
+  margin: 3% 0 0;
+}
+.feature-container {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  padding: 5%;
+  margin: 3% 0;
+}
+.vertical {
+  display: flex;
+  align-items: center;
+}
+.feature-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.padding {
+  padding: 0 4%;
+}
+.illustration {
+  width: 100%;
+  float: right;
+}
+
+/* Bottom Section */
+.bottom-section {
+  padding: 10% 0 3%;
+  background-color: hsl(192, 100%, 9%);
+}
+.bottom-section .logo {
+  margin: 5% 0;
+  filter: brightness(0) invert(1);
+}
+.row .col-md-2 {
+  padding-left: 8%;
+}
+.bottom-section p {
+  color: hsl(193, 100%, 96%);
+  font-size: 0.8rem;
+}
+.social-icon {
+  font-size: 2rem;
+  color: hsl(193, 100%, 96%);
+  margin: 2%;
+}
+.copyright p {
+  text-align: end;
+  font-size: 0.7rem;
+}
+
+footer {
+  padding: 5% 0;
+  background-color: hsl(192, 100%, 9%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #fff;
+}
+
+/* Floating CTA */
+.popped-cta {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  padding: 3% 0;
+  margin: 0% auto;
+  text-align: center;
+  width: 60%;
+  align-self: center;
+  position: relative;
+  top: 90px;
+
+  background-color: #fff;
+}
+.bottom-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 2% 0 5%;
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 16px;
+  }
+  .top-section {
+    background-image: url("images/bg-hero-mobile.svg");
+    text-align: center;
+  }
+  .logo {
+    width: 30%;
+    position: relative;
+    bottom: 15px;
+  }
+  .big-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-right: 10%;
+  }
+  .intro-text {
+    padding-right: 0;
+    color: hsl(192, 100%, 9%);
+    margin: 7% 0;
+  }
+  .cta-btn {
+    padding: 4% 16%;
+    font-size: 10px;
+    margin-bottom: 10%;
+  }
+  nav .cta-btn {
+    padding: 1.5% 5%;
+    font-size: 10px;
+  }
+
+  .feature-container {
+    text-align: center;
+    margin: 10% 0 0;
+  }
+  .feature-heading {
+    font-size: 1.3rem;
+    margin: 15% 0 10% 0;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .bottom-section .logo {
+    margin-left: -4%;
+    width: 40%;
+    margin-top: 40%;
+  }
+  .row .col-md-2 {
+    padding-left: 0;
+  }
+  .social-icon {
+    font-size: 1rem;
+  }
+
+  .copyright p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 5%;
+  }
+  .col-1 {
+    padding: 0;
+  }
+  .col-11 {
+    padding: 15 0px 0 0;
+  }
+  .top-list {
+    margin-top: 10%;
+  }
+
+  .popped-cta {
+    margin: 3% auto;
+    width: 85%;
+    top: 70px;
+  }
+  .bottom-heading {
+    font-size: 1.3rem;
+  }
+}
