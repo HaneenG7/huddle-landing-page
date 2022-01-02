@@ -36,8 +36,8 @@ And this screenshot is for the mobile design
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/HaneenG7/huddle-landing-page)
+- Live Site URL: [Add live site URL here](https://haneeng7.github.io/huddle-landing-page/)
 
 ## My process
 
